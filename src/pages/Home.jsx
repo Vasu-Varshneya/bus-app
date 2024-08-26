@@ -16,7 +16,7 @@ const Home = () => {
         </h1>
 
         <h1 className="text-white text-4xl sm:text-6xl font-bold opacity-0 animate-fadeIn delay-300">
-          BusBuddyGo
+          SMART BUS APP
         </h1>
 
         <p className="text-white text-lg sm:text-2xl max-w-2xl opacity-0 animate-fadeIn delay-500">
@@ -24,19 +24,22 @@ const Home = () => {
         </p>
 
         <div className="relative flex items-center justify-center flex-wrap">
-          <input
-            type="text"
-            placeholder="Where do you want to go?"
-            value={inputValue}
-            onChange={handleInputChange}
-            className="w-72 sm:w-96 py-3 px-4 m-6 rounded-full shadow-md text-center border border-gray-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition-all"
-          />
-          <button
+        
+          
+          <div className="card">
+    <img src="..." className="card-img-top" alt="..."/>
+  
+    <div className="card-body">
+      <h5 className="card-title">      WELCOME TO BusBuddyGo</h5>
+      <p className="card-text">  Streamline your commute with our bus app offering live tracking, ticket booking, and more for a seamless travel experience.</p>
+      <button
             className="search-button"
             onClick={() => console.log('Search button clicked!')}
           >
-            Search
+            Go somewhere
           </button>
+    </div>
+  </div> 
         </div>
       </div>
     </div>
