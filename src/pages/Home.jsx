@@ -16,7 +16,7 @@ const Home = () => {
         </h1>
 
         <h1 className="text-white text-4xl sm:text-6xl font-bold opacity-0 animate-fadeIn delay-300">
-          SMART BUS APP
+          BusBuddyGo
         </h1>
 
         <p className="text-white text-lg sm:text-2xl max-w-2xl opacity-0 animate-fadeIn delay-500">
